@@ -21,6 +21,94 @@
 <style type="text/css">
 <!--
 .style1 {color: #02143C}
+
+.rs-wrap {
+	width: 640px;
+	margin: 5px 0 0 15px;
+	text-align: left;
+}
+.rs-card {
+	margin: 0 0 14px 0;
+	padding: 14px 18px;
+	background-color: #F4F7FC;
+	border: 1px solid #D5DDEF;
+	border-left: 4px solid #08205C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #02143C;
+	text-align: left;
+}
+.rs-card.rs-key { border-left-color: #FF0000; }
+.rs-note {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	color: #08205C;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 4px;
+}
+.rs-card-title {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #08205C;
+	margin-bottom: 5px;
+}
+.rs-card-text {
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.6;
+	color: #02143C;
+}
+.rs-card ul { margin: 4px 0 0 18px; padding: 0; }
+.rs-card li {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.6;
+	margin-bottom: 4px;
+	text-align: left;
+}
+a.rs-btn {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 8px 24px;
+	background-color: #08205C;
+	color: #FFFFFF !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+a.rs-btn:hover { background-color: #468348; }
+table.rs-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 0 14px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+table.rs-table th, table.rs-table td {
+	border: 1px solid #D5DDEF;
+	padding: 9px 10px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #02143C;
+	text-align: center;
+}
+table.rs-table tr.rs-head th {
+	background-color: #08205C;
+	color: #EFFFFF;
+	font-weight: bold;
+}
+table.rs-table tr.alt td { background-color: #F4F7FC; }
+table.rs-table td.rs-rowhead {
+	background-color: #D5DDEF;
+	font-weight: bold;
+	text-align: left;
+}
+table.rs-table td.rs-fee { font-weight: bold; color: #08205C; }
+
 -->
 </style>
 </HEAD>
@@ -251,7 +339,14 @@
             <th width="700" scope="col"><div align="justify">
 
 			<!-- Submit link disabled - will be re-enabled when submission opens -->
-              <p><strong><font color="#414141" size="2px" face="trebuchet ms">-&gt; </font><font size="2px" face="trebuchet ms"><span class="style3"><a href="https://cmt3.research.microsoft.com/rusmart2026">Submit your paper here</a></span></font></strong></p>
+              <div class="rs-wrap">
+                <div class="rs-card rs-key">
+                  <span class="rs-note">Paper submission is open</span>
+                  <span class="rs-card-title">Submit your paper to ruSMART 2026</span>
+                  <span class="rs-card-text">Manuscripts are submitted through the Microsoft CMT system.</span>
+                  <a class="rs-btn" href="https://cmt3.research.microsoft.com/rusmart2026">Submit your paper &raquo;</a>
+                </div>
+              </div>
 
 			<!-- old form; commented this part unchanged to always have access to the information that was here forever (Emil) -->
 			<!-- <blockquote>  
@@ -283,7 +378,12 @@
                         </font></p> -->
 
 
-                        <p align="left" class="style1">The camera ready manusript for ruSMART 2026 <strong>MUST</strong> be formatted in accordance to Springer's LNCS requirements - <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">link to Springer's website</a>  </p>
+                        <div class="rs-wrap">
+                          <div class="rs-card">
+                            <span class="rs-card-title">Camera-ready formatting</span>
+                            <span class="rs-card-text">The camera ready manuscript for ruSMART 2026 <strong>MUST</strong> be formatted in accordance with Springer's LNCS requirements &mdash; <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Springer's LNCS guidelines</a>.</span>
+                          </div>
+                        </div>
 
                         <!-- NEW2AN 2024 camera ready submission instructions - commented out for NEW2AN 2026, to be updated when ready -->
                         <!--
@@ -320,7 +420,7 @@
 								<br><br>
                   <th scope="col"><font color="#BBBBBB" size="1px" face="arial">&copy; 2008 - 2026 by ruSMART<br>
 Last modified:
-<!-- #BeginDate format:Am1 -->May 17, 2026<!-- #EndDate -->
+<!-- #BeginDate format:Am1 -->July 17, 2026<!-- #EndDate -->
                   </font></th>
                 </tr>
               </table></th>

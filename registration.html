@@ -22,6 +22,94 @@
 <!--
 .style7 {color: #FF0000}
 .style3 {font-size: 13px}
+
+.rs-wrap {
+	width: 640px;
+	margin: 5px 0 0 15px;
+	text-align: left;
+}
+.rs-card {
+	margin: 0 0 14px 0;
+	padding: 14px 18px;
+	background-color: #F4F7FC;
+	border: 1px solid #D5DDEF;
+	border-left: 4px solid #08205C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #02143C;
+	text-align: left;
+}
+.rs-card.rs-key { border-left-color: #FF0000; }
+.rs-note {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	color: #08205C;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 4px;
+}
+.rs-card-title {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #08205C;
+	margin-bottom: 5px;
+}
+.rs-card-text {
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.6;
+	color: #02143C;
+}
+.rs-card ul { margin: 4px 0 0 18px; padding: 0; }
+.rs-card li {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.6;
+	margin-bottom: 4px;
+	text-align: left;
+}
+a.rs-btn {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 8px 24px;
+	background-color: #08205C;
+	color: #FFFFFF !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+a.rs-btn:hover { background-color: #468348; }
+table.rs-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 0 14px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+table.rs-table th, table.rs-table td {
+	border: 1px solid #D5DDEF;
+	padding: 9px 10px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #02143C;
+	text-align: center;
+}
+table.rs-table tr.rs-head th {
+	background-color: #08205C;
+	color: #EFFFFF;
+	font-weight: bold;
+}
+table.rs-table tr.alt td { background-color: #F4F7FC; }
+table.rs-table td.rs-rowhead {
+	background-color: #D5DDEF;
+	font-weight: bold;
+	text-align: left;
+}
+table.rs-table td.rs-fee { font-weight: bold; color: #08205C; }
+
 -->
 </style>
 </HEAD>
@@ -256,51 +344,60 @@
 		<br>
 		<table width="700" border="0" cellpadding="0">
           <tr>
-            <th scope="col"><div align="justify">
-                <blockquote>
-                  <p><strong>&gt;&gt;&gt; Registration fee for ruSMART 2026<font class="content"><strong><a name="regfees"></a></strong></font></strong></p>
-                  <p><strong>Please be aware that for ruSMART 2026, <span class="style7">one full registration is mandatory for each accepted paper</span> to be included in the conference proceedings, even if the presenting author is a student.</strong></p>
-
-<p><strong><span class="style7">Authors submitting more than one accepted paper are eligible for a 50% registration fee discount on the second paper, provided that at least one author is common across all such papers. Maximum 2 papers per author is allowed Either as main or coauthor for geographical constraints.</span></strong></p>
-                  <table width="90%"  border="0" cellspacing="2" cellpadding="0">
-                    <tr bgcolor="#669999">
-                      <th scope="col"><p align="center">&nbsp;</p></th>
-                      <th scope="col"><p align="center">AUTHOR and EARLY registration <br>
-                before October 07, 2026</p></th>
-                      <th scope="col"><p align="center">LATE registration <br>
-                after October 07, 2026</p></th>
-                    </tr>
-                    <tr bgcolor="#CCCCCC">
-                      <th scope="row"><p align="center">Authors with affiliation from the host Institution i.e. Istanbul University, Turkey</p></th>
-                      <td><p align="center">400 EUR</p></td>
-                      <td><p align="center">500 EUR</p></td>
-                    </tr>
-
-                    <tr bgcolor="#EEEEEE">
-                      <th scope="row"><p align="center">All other authors</p></th>
-                      <td><p align="center">500 EUR</p></td>
-                      <td><p align="center">600 EUR</p></td>
-                    </tr>
-
-                  </table>
-
-                  
-<p><strong>Registration Policy:</strong></p>
-<ul>
-<li>One full registration is required for each accepted paper.</li>
-<li>The second and each subsequent accepted paper is eligible for a <strong>50% registration fee discount</strong>, provided that at least one author is common across all such papers.</li>
-<li>The discounted registration applies only to papers sharing at least one common author with a previously registered paper.</li>
-<li>Registration fee is <strong>EUR 400</strong> for papers having at least one author affiliated with an institution in Turkey and <strong>EUR 500</strong> for all other papers (early registration rates).</li>
-</ul>
-
-<p><font class="content">Full ruSMART registration fee covers: </font></p>
+            <th scope="col"><div align="left">
+              <div class="rs-wrap">
+                <a name="regfees"></a>
+                <div class="rs-card rs-key">
+                  <span class="rs-note">Please be aware</span>
+                  <span class="rs-card-title">Registration fee for ruSMART 2026</span>
+                  <span class="rs-card-text">For ruSMART 2026, <strong>one full registration is mandatory for each accepted paper</strong> to be included in the conference proceedings, even if the presenting author is a student.</span>
+                </div>
+                <div class="rs-card">
+                  <span class="rs-card-title">Multi-paper discount</span>
+                  <span class="rs-card-text">Authors submitting more than one accepted paper are eligible for a <strong>50% registration fee discount</strong> on the second paper, provided that at least one author is common across all such papers. Maximum 2 papers per author is allowed, either as main or co-author, for geographical constraints.</span>
+                </div>
+                <table class="rs-table">
+                  <tr class="rs-head">
+                    <th>&nbsp;</th>
+                    <th>AUTHOR and EARLY registration<br>before October 07, 2026</th>
+                    <th>LATE registration<br>after October 07, 2026</th>
+                  </tr>
+                  <tr>
+                    <td class="rs-rowhead">Authors with affiliation from the host Institution i.e. Istanbul University, Turkey</td>
+                    <td class="rs-fee">400 EUR</td>
+                    <td>500 EUR</td>
+                  </tr>
+                  <tr class="alt">
+                    <td class="rs-rowhead">All other authors</td>
+                    <td class="rs-fee">500 EUR</td>
+                    <td>600 EUR</td>
+                  </tr>
+                </table>
+                <div class="rs-card">
+                  <span class="rs-card-title">Registration policy</span>
                   <ul>
-                    <li><font class="content" align="left">online access to all ruSMART sessions for 3 days (November 23-25, 2026) </font></li>
-                    <li><font class="content" align="left">digital copy of Springer LNCS proceedings</font></li>
+                    <li>One full registration is required for each accepted paper.</li>
+                    <li>The second and each subsequent accepted paper is eligible for a <strong>50% registration fee discount</strong>, provided that at least one author is common across all such papers.</li>
+                    <li>The discounted registration applies only to papers sharing at least one common author with a previously registered paper.</li>
+                    <li>Registration fee is <strong>EUR 400</strong> for papers having at least one author affiliated with an institution in Turkey and <strong>EUR 500</strong> for all other papers (early registration rates).</li>
                   </ul>
-                    </ul>
-                  <p><font class="content"><strong>&gt;&gt;&gt; On-line Registration<a name="onlinereg"></a> </strong></font></p>
-                <!--<p><a href="https://edas.info/registerPerson.php?c=31559">Registration is open</a></a></p>-->
+                </div>
+                <div class="rs-card">
+                  <span class="rs-card-title">Full ruSMART registration fee covers</span>
+                  <ul>
+                    <li>online access to all ruSMART sessions for 3 days (November 23-25, 2026)</li>
+                    <li>digital copy of Springer LNCS proceedings</li>
+                  </ul>
+                </div>
+                <a name="onlinereg"></a>
+                <div class="rs-card">
+                  <span class="rs-card-title">On-line Registration</span>
+                  <span class="rs-card-text">Details on the on-line registration will be announced here.</span>
+                  <!--<p><a href="https://edas.info/registerPerson.php?c=31559">Registration is open</a></p>-->
+                </div>
+              </div>
+            </div></th>
+          </tr>
 
           <tr>
             <th width="700" align="center" valign="middle" scope="row"><p>&nbsp;</p>
@@ -309,7 +406,7 @@
 <br><br>                  <th scope="col"><font color="#BBBBBB" size="1px" face="arial">&copy; 2008 - 2026 by ruSMART<br>
 
 Last modified:
-<!-- #BeginDate format:Am1 -->May 16, 2026<!-- #EndDate -->
+<!-- #BeginDate format:Am1 -->July 17, 2026<!-- #EndDate -->
                   </font></th>
                 </tr>
               </table>              </th>
