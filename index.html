@@ -20,6 +20,24 @@ function ChangeImage(name, over)
 }
 </script>
 
+<style type="text/css">
+/* Presentation enhancements for ruSMART 2026 */
+html { scroll-behavior: smooth; }
+body { margin:0; background:#ffffff; }
+a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
+.content a { transition:filter .18s ease, transform .18s ease, box-shadow .18s ease; }
+.content a:hover { filter:brightness(1.08); }
+.partner-strip {
+    margin:22px auto 8px;
+    padding:18px 10px;
+    background:#F5F7FB;
+    border-top:1px solid #D6DCE8;
+    border-bottom:1px solid #D6DCE8;
+}
+@media (max-width: 1100px) {
+    .maintable { width:100%; }
+}
+</style>
 </head>
 
 <body bgcolor="#FFFFFF" leftmargin="0" marginheight="0" marginwidth="0" rightmargin="0" topmargin="0">
@@ -253,51 +271,227 @@ name="organizers">
 </td>
 
 <td align="left" class="content" height="100%">
-
 <br><br>
 
 <div id="content-head-line">&gt;&gt; About the conference</div>
 
 <br>
 
-<table width="700" border="0" cellpadding="0">
-
+<table width="700" border="0" cellpadding="0" cellspacing="0">
 <tr>
 <th width="700">
 
-<div align="justify">
+<div style="
+    width:680px;
+    margin:0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#02143C;
+    text-align:left;
+    line-height:1.6;
+">
 
-<table width="700" border="2" cellspacing="1" cellpadding="1">
-<tr>
-<td width="700" bgcolor="#CCCCCC">
+    <!-- Main conference identity -->
+    <div style="
+        background:#08205C;
+        color:#FFFFFF;
+        border:1px solid #04143E;
+        padding:20px 22px;
+        text-align:center;
+        box-shadow:0 3px 10px rgba(0,0,0,0.18);
+        margin-bottom:16px;
+    ">
+        <div style="font-size:20px; font-weight:bold; line-height:1.4;">
+            19<sup>th</sup> International Conference on Internet of Things
+            and Smart Spaces
+        </div>
+        <div style="font-size:17px; font-weight:bold; margin-top:9px; color:#F3D36A;">
+            ruSMART 2026
+        </div>
+        <div style="font-size:14px; margin-top:7px;">
+            23&ndash;25 November 2026 &nbsp; | &nbsp; Istanbul, Turkey
+        </div>
+    </div>
 
-<p>&nbsp;</p>
+    <!-- Important announcement -->
+    <div style="
+        background:#8B1E2D;
+        color:#FFFFFF;
+        border:1px solid #681520;
+        padding:14px 18px;
+        margin-bottom:16px;
+        text-align:center;
+        box-shadow:0 2px 8px rgba(0,0,0,0.16);
+    ">
+        <div style="font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px;">
+            Important Announcement
+        </div>
+        <div style="font-size:15px; font-weight:bold;">
+            Full Paper Submission Deadline: 15 August 2026
+        </div>
+        <div style="font-size:12px; margin-top:5px;">
+            Authors are encouraged to complete their submissions before the deadline.
+        </div>
+    </div>
 
-<p>
-<strong>
-Conference will be hosted in Istanbul, Turkey, November 23-25, 2026
-</strong>
-</p>
+    <!-- At a glance -->
+    <div style="
+        border:1px solid #C8D0E0;
+        background:#F1F5FB;
+        padding:16px 15px;
+        margin-bottom:18px;
+    ">
+        <div style="color:#08205C; font-size:16px; font-weight:bold; text-align:center; margin-bottom:13px;">
+            ruSMART 2026 at a Glance
+        </div>
+        <table width="100%" border="0" cellspacing="7" cellpadding="0" style="table-layout:fixed;">
+        <tr>
+            <td width="25%" align="center" style="background:#FFFFFF;border:1px solid #9AA6BF;padding:12px 6px;">
+                <div style="font-size:14px; font-weight:bold; color:#08205C; margin-bottom:5px;">Conference Focus</div>
+                <div style="font-size:11px; color:#555555; line-height:1.45;">Internet of Things<br>and Smart Spaces</div>
+            </td>
+            <td width="25%" align="center" style="background:#FFFFFF;border:1px solid #9AA6BF;padding:12px 6px;">
+                <div style="font-size:14px; font-weight:bold; color:#08205C; margin-bottom:5px;">Venue</div>
+                <div style="font-size:11px; color:#555555; line-height:1.45;">Istanbul,<br>Turkey</div>
+            </td>
+            <td width="25%" align="center" style="background:#FFFFFF;border:1px solid #9AA6BF;padding:12px 6px;">
+                <div style="font-size:14px; font-weight:bold; color:#08205C; margin-bottom:5px;">Proceedings</div>
+                <div style="font-size:11px; color:#555555; line-height:1.45;">Springer Lecture Notes<br>in Computer Science</div>
+            </td>
+            <td width="25%" align="center" style="background:#FFFFFF;border:1px solid #9AA6BF;padding:12px 6px;">
+                <div style="font-size:14px; font-weight:bold; color:#08205C; margin-bottom:5px;">Conference Dates</div>
+                <div style="font-size:11px; color:#555555; line-height:1.45;">23&ndash;25 November<br>2026</div>
+            </td>
+        </tr>
+        </table>
+    </div>
 
-<br><br>
+    <!-- Quick action buttons -->
+    <table width="680" border="0" cellspacing="6" cellpadding="0" style="table-layout:fixed;margin-bottom:18px;">
+    <tr>
+        <td width="25%" align="center">
+            <a href="cfp.html" style="display:block; background:#08205C; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; padding:12px 5px; border:1px solid #04143E;">Call for Papers</a>
+        </td>
+        <td width="25%" align="center">
+            <a href="subm.html" style="display:block; background:#173B7A; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; padding:12px 5px; border:1px solid #0E2D66;">Submit Paper</a>
+        </td>
+        <td width="25%" align="center">
+            <a href="dates.html" style="display:block; background:#315B99; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; padding:12px 5px; border:1px solid #234777;">Important Dates</a>
+        </td>
+        <td width="25%" align="center">
+            <a href="registration.html" style="display:block; background:#8B1E2D; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; padding:12px 5px; border:1px solid #681520;">Registration</a>
+        </td>
+    </tr>
+    </table>
 
-</td>
-</tr>
-</table>
+    <!-- Welcome -->
+    <div style="
+        background:#FFFFFF;
+        border:1px solid #C8D0E0;
+        padding:17px 19px;
+        margin-bottom:18px;
+        color:#333333;
+        font-size:13px;
+        font-weight:normal;
+        text-align:justify;
+    ">
+        <div style="color:#08205C; font-size:17px; font-weight:bold; margin-bottom:8px; text-align:left;">
+            Welcome to ruSMART 2026
+        </div>
+        <p style="margin-top:0;">
+            ruSMART 2026, <strong>The 19th International Conference on Internet of Things and
+            Smart Spaces</strong>, will be held in <strong>Istanbul, Turkey,
+            23&ndash;25 November 2026</strong>, bringing together researchers, academics,
+            industry experts, and practitioners working on the Internet of Things,
+            smart spaces, and intelligent systems and applications.
+        </p>
+        <p>
+            The conference provides an international forum for exchanging new ideas,
+            research results, and practical experience in the design, development,
+            deployment, and evaluation of smart spaces and IoT-enabled systems.
+        </p>
+        <p>
+            The history of ruSMART dates back to <strong>2008</strong>. Proceedings of
+            ruSMART 2026 will be published in <strong>Springer Lecture Notes in Computer
+            Science (LNCS)</strong> (approved) and indexed by relevant databases. The
+            peer-review process is managed through the <strong>Microsoft Conference
+            Management Toolkit (CMT)</strong>, provided for free by Microsoft.
+        </p>
+        <p style="margin-bottom:0;">
+            Authors, researchers, students, and participants from around the world are
+            warmly invited to join ruSMART 2026 in Istanbul.
+        </p>
+    </div>
 
-<p>
-Welcome to <strong>The 19th International Conference on Internet of Things and Smart Spaces ruSMART 2026</strong>.
-ruSMART 2026 proceedings will be published in LNCS, Springer (approved) and indexed by relevant databases.
-</p>
+    <!-- Highlights -->
+    <div style="
+        background:#08205C;
+        color:#FFFFFF;
+        font-size:16px;
+        font-weight:bold;
+        text-align:center;
+        padding:10px;
+        border:1px solid #04143E;
+    ">
+        Conference Highlights
+    </div>
 
-<p>
-The history of ruSMART dates back to 2008. Today it is an established conference featuring proceedings published by Springer LNCS.
-</p>
+    <table width="680" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed; border-collapse:collapse; margin-bottom:18px;">
+    <tr>
+        <td width="25%" align="center" style="border:1px solid #9AA6BF;padding:14px 5px;background:#FFFFFF;">
+            <div style="font-size:22px;font-weight:bold;color:#08205C;">19<sup>th</sup></div>
+            <div style="font-size:11px;color:#555555;">Conference Edition</div>
+        </td>
+        <td width="25%" align="center" style="border:1px solid #9AA6BF;padding:14px 5px;background:#F1F5FB;">
+            <div style="font-size:22px;font-weight:bold;color:#08205C;">Since 2008</div>
+            <div style="font-size:11px;color:#555555;">Conference Heritage</div>
+        </td>
+        <td width="25%" align="center" style="border:1px solid #9AA6BF;padding:14px 5px;background:#FFFFFF;">
+            <div style="font-size:22px;font-weight:bold;color:#08205C;">35%</div>
+            <div style="font-size:11px;color:#555555;">Acceptance Rate</div>
+        </td>
+        <td width="25%" align="center" style="border:1px solid #9AA6BF;padding:14px 5px;background:#F1F5FB;">
+            <div style="font-size:22px;font-weight:bold;color:#08205C;">Springer LNCS</div>
+            <div style="font-size:11px;color:#555555;">Proceedings</div>
+        </td>
+    </tr>
+    </table>
 
-<p>
-The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
-</p>
-    
+    <!-- Milestones and news -->
+    <table width="680" border="0" cellspacing="8" cellpadding="0" style="table-layout:fixed;margin-bottom:20px;">
+    <tr>
+        <td width="50%" valign="top" style="border:1px solid #C8D0E0;background:#FFFFFF;">
+            <div style="background:#173B7A; color:#FFFFFF; font-size:14px; font-weight:bold; padding:9px 12px;">
+                Upcoming Milestones
+            </div>
+            <div style="padding:12px 14px; color:#333333; font-size:12px; font-weight:normal;">
+                <div style="margin-bottom:8px;">
+                    <strong style="color:#08205C;">15 August 2026</strong><br>
+                    Full paper submission (hard deadline)
+                </div>
+                <div style="margin-bottom:8px;">
+                    <strong style="color:#08205C;">15 September 2026</strong><br>
+                    Notification of acceptance
+                </div>
+                <div>
+                    <strong style="color:#08205C;">30 September 2026</strong><br>
+                    Camera-ready version
+                </div>
+            </div>
+        </td>
+        <td width="50%" valign="top" style="border:1px solid #C8D0E0;background:#FFFFFF;">
+            <div style="background:#173B7A; color:#FFFFFF; font-size:14px; font-weight:bold; padding:9px 12px;">
+                Latest News
+            </div>
+            <div style="padding:12px 14px; color:#333333; font-size:12px; font-weight:normal;">
+                <div style="margin-bottom:7px;">&#10003; Springer LNCS publication approved</div>
+                <div style="margin-bottom:7px;">&#10003; Paper submission open via Microsoft CMT</div>
+                <div style="margin-bottom:7px;">&#10003; Registration information available</div>
+                <div>&#10003; Technical Program Committee announced</div>
+            </div>
+        </td>
+    </tr>
+    </table>
+
 </div>
 
 </th>
@@ -306,23 +500,24 @@ The Microsoft CMT service was used for managing the peer-reviewing process for t
 <tr>
 <th align="center" valign="middle">
 
-<p>&nbsp;</p>
-<!-- Hospitality Sponsor -->
-<table width="90%" border="0" cellspacing="0" cellpadding="10" align="center">
+<!-- Partners -->
+<div align="center" class="partner-strip">
+<div style="font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#667085; letter-spacing:.8px; text-transform:uppercase; margin-bottom:14px;">
+Publication and Hospitality Partners
+</div>
+<table border="0" cellspacing="0" cellpadding="14" align="center">
 <tr>
-<td align="center">
-
-<p style="margin-bottom:8px;">
-<b>Hospitality Sponsor</b>
-</p>
-
-<img src="Images/gelisim-universitesi-logo.png"
-     alt="Istanbul Gelisim University"
-     style="width:100px; height:auto;">
-
+<td align="center" valign="middle">
+<img src="Images/lncs-logo.jpg" alt="Springer LNCS" style="height:60px; width:auto;">
+<div style="font-family:Arial; font-size:10px; color:#667085; margin-top:6px;">Springer LNCS Proceedings</div>
+</td>
+<td align="center" valign="middle">
+<img src="Images/gelisim-universitesi-logo.png" alt="Istanbul Gelisim University" style="height:60px; width:auto;">
+<div style="font-family:Arial; font-size:10px; color:#667085; margin-top:6px;">Hospitality Sponsor</div>
 </td>
 </tr>
 </table>
+</div>
 
 <p>&nbsp;</p>
 <table width="90%" border="0" cellspacing="0" cellpadding="0">
@@ -333,7 +528,7 @@ The Microsoft CMT service was used for managing the peer-reviewing process for t
 &copy; 2008 - 2026 by ruSMART
 <br>
 
-Last modified: May 24, 2026
+Last modified: July 20, 2026
 
 </font>
 
@@ -343,16 +538,10 @@ Last modified: May 24, 2026
 
 </th>
 </tr>
-
 </table>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-
-</td>
-
-</tr>
-</table>
 
 </td>
 </tr>
