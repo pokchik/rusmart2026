@@ -3,7 +3,9 @@
 <title>The 19th International Conference on Internet of Things and Smart Spaces ruSMART 2026</title>
 
 <meta http-equiv="Content-Style-Type" content="text/css" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Official website of ruSMART 2026, the 19th International Conference on Internet of Things and Smart Spaces, 23–25 November 2026, Istanbul, Turkey.">
 
 <link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -23,10 +25,31 @@ function ChangeImage(name, over)
 <style type="text/css">
 /* Presentation enhancements for ruSMART 2026 */
 html { scroll-behavior: smooth; }
-body { margin:0; background:#ffffff; }
+body { margin:0; background:#eef2f8; font-family:Arial, Helvetica, sans-serif; }
+img { max-width:100%; }
 a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
 .content a { transition:filter .18s ease, transform .18s ease, box-shadow .18s ease; }
 .content a:hover { filter:brightness(1.08); }
+.topic-card {
+    background:#FFFFFF;
+    border:1px solid #C8D0E0;
+    border-top:4px solid #173B7A;
+    padding:15px 14px;
+    min-height:112px;
+    box-sizing:border-box;
+}
+.topic-card-title {
+    color:#08205C;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:7px;
+}
+.topic-card-text {
+    color:#4B5565;
+    font-size:11px;
+    line-height:1.5;
+    font-weight:normal;
+}
 .partner-strip {
     margin:22px auto 8px;
     padding:18px 10px;
@@ -36,6 +59,10 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
 }
 @media (max-width: 1100px) {
     .maintable { width:100%; }
+}
+@media (max-width: 760px) {
+    .content table, .content div { max-width:100% !important; }
+    .content td { box-sizing:border-box; }
 }
 </style>
 </head>
@@ -57,7 +84,7 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
 
 <tr align="center">
 <td>
-<img src="Images/h1-plain.png" width="1023" height="251">
+<img src="Images/h1-plain.png" width="1023" height="251" alt="ruSMART 2026 conference banner">
 </td>
 </tr>
 
@@ -250,7 +277,7 @@ name="organizers">
 
 <tr>
 <td id="vertical-menu">
-<a href="contacts.html">Contacts</a>
+<a href="contacts.html">Contact us</a>
 </td>
 </tr>
 
@@ -382,6 +409,56 @@ name="organizers">
         </td>
     </tr>
     </table>
+
+    <!-- New topics for 2026 -->
+    <div style="
+        background:#08205C;
+        color:#FFFFFF;
+        font-size:16px;
+        font-weight:bold;
+        text-align:center;
+        padding:10px;
+        border:1px solid #04143E;
+    ">
+        New Call for Papers Topics for 2026
+    </div>
+
+    <div style="
+        border:1px solid #C8D0E0;
+        border-top:0;
+        background:#F1F5FB;
+        padding:15px;
+        margin-bottom:18px;
+    ">
+        <div style="font-size:12px; color:#4B5565; line-height:1.55; font-weight:normal; text-align:center; margin-bottom:12px;">
+            In addition to the established ruSMART themes, the 2026 Call for Papers now welcomes high-quality research in the following closely related areas.
+        </div>
+        <table width="100%" border="0" cellspacing="8" cellpadding="0" style="table-layout:fixed;">
+        <tr>
+            <td width="33.33%" valign="top">
+                <div class="topic-card">
+                    <div class="topic-card-title">Renewable Energy Technologies</div>
+                    <div class="topic-card-text">Smart energy systems, IoT-enabled energy management, distributed generation, energy monitoring, and intelligent renewable-energy integration.</div>
+                </div>
+            </td>
+            <td width="33.33%" valign="top">
+                <div class="topic-card">
+                    <div class="topic-card-title">Electric Vehicle (EV) Technologies</div>
+                    <div class="topic-card-text">Connected and autonomous EVs, smart charging, vehicle-to-grid services, intelligent transportation, and EV communication infrastructures.</div>
+                </div>
+            </td>
+            <td width="33.33%" valign="top">
+                <div class="topic-card">
+                    <div class="topic-card-title">Nanotechnology</div>
+                    <div class="topic-card-text">Nano-enabled sensing, communication, computing, materials, devices, and applications supporting IoT, smart spaces, and next-generation networks.</div>
+                </div>
+            </td>
+        </tr>
+        </table>
+        <div style="text-align:center; margin-top:10px;">
+            <a href="cfp.html" style="display:inline-block; background:#8B1E2D; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; padding:10px 18px; border:1px solid #681520;">View the Complete Call for Papers</a>
+        </div>
+    </div>
 
     <!-- Welcome -->
     <div style="
@@ -600,7 +677,7 @@ Hosts, Partners and Sponsors
 &copy; 2008 - 2026 by ruSMART
 <br>
 
-Last modified: July 20, 2026
+Last modified: July 23, 2026
 
 </font>
 
