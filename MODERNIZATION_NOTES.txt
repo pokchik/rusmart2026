@@ -1,0 +1,22 @@
+ruSMART 2026 WEBSITE VISUAL REFRESH
+=====================================
+
+Updated: 8 August 2026
+
+WHAT CHANGED
+- Applied the same core visual refresh used on the current NEW2AN website.
+- Added the refined light-blue technology background and elevated central canvas.
+- Modernized content typography, spacing, title bars, links, tables, forms, and side navigation.
+- Replaced legacy image-based horizontal navigation with consistent dark-blue text/icon navigation.
+- Added Keynote Speakers to the main navigation and retained it in the side navigation.
+- Standardized “Contact us” wording.
+- Added viewport metadata and safer small-screen horizontal scrolling while preserving the legacy fixed-width structure.
+- Updated keynote.html to use the current ruSMART 2026 conference banner instead of the obsolete NEW2AN 2012 / St. Petersburg image.
+- Prof. Andrey Koucheryavy remains the first keynote speaker, followed by Prof. Montasir Qasymeh.
+
+DEPLOYMENT
+1. Keep a backup of the current live site.
+2. Upload the contents of this folder to the same hosting directory/repository.
+3. Replace existing HTML and style.css files with these versions.
+4. Preserve the Images folder and downloadable files.
+5. After deployment, use Ctrl+F5 (Windows) or Cmd+Shift+R (Mac) to clear cached CSS/images.
