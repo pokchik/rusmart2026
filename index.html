@@ -47,21 +47,44 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
     font-weight:normal;
 }
 .speaker-card {
-    border:1px solid #C8D0E0;
-    padding:18px 20px;
+    border:1px solid #D6DCE8;
+    background:#FFFFFF;
+    padding:18px 14px 20px 14px;
     box-sizing:border-box;
     text-align:center;
-    background:#FFFFFF;
     box-shadow:0 3px 12px rgba(8,32,92,.10);
-    width:300px;
+    width:100%;
+    max-width:300px;
+    min-height:350px;
+    margin:0 auto;
     display:inline-block;
+    vertical-align:top;
 }
 .speaker-card img {
-    width:180px;
-    height:180px;
+    display:block;
+    width:190px;
+    height:190px;
     max-width:none;
     object-fit:cover;
-    border:1px solid #D6DCE8;
+    object-position:center top;
+    background:#FFFFFF;
+    border:3px solid #08205C;
+    padding:3px;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+.speaker-name {
+    font-size:15px;
+    font-weight:bold;
+    color:#08205C;
+    margin-top:14px;
+}
+.speaker-affil {
+    font-size:12px;
+    color:#4B5565;
+    font-weight:normal;
+    margin-top:6px;
+    line-height:1.5;
 }
 .partner-strip {
     margin:22px auto 8px;
@@ -471,10 +494,10 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
 <tr>
 <!-- Prof. Andrey Koucheryavy: placed first as requested by the Steering Committee -->
 <td align="center" style="padding:8px 10px;" valign="top" width="50%">
-<div class="speaker-card" style="background:#FFFFFF; border:1px solid #D6DCE8; padding:15px 12px; min-height:330px;">
-<img alt="Prof. Andrey Koucheryavy" src="Images/Prof. Andrey.jpeg" style="display:block; width:170px; height:215px; object-fit:contain; object-position:center top; background:#FFFFFF; border:3px solid #08205C; padding:3px; margin:0 auto; box-sizing:border-box;"/>
-<div style="font-size:15px; font-weight:bold; color:#08205C; margin-top:12px;">Andrey Koucheryavy</div>
-<div style="font-size:12px; color:#4B5565; font-weight:normal; margin-top:5px; line-height:1.5;">
+<div class="speaker-card">
+<img src="Images/Prof. Andrey.jpeg" alt="Prof. Andrey Koucheryavy">
+<div class="speaker-name">Andrey Koucheryavy</div>
+<div class="speaker-affil">
                         Professor<br/>
                         Bonch-Bruevich Saint Petersburg State University of Telecommunications, Russia
                     </div>
@@ -482,10 +505,10 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
 </td>
 <!-- Prof. Montasir Qasymeh -->
 <td align="center" style="padding:8px 10px;" valign="top" width="50%">
-<div class="speaker-card" style="background:#FFFFFF; border:1px solid #D6DCE8; padding:15px 12px; min-height:330px;">
+<div class="speaker-card">
 <img src="Images/montasir-qasymeh.jpg" alt="Prof. Montasir Qasymeh">
-<div style="font-size:15px; font-weight:bold; color:#08205C; margin-top:12px;">Montasir Qasymeh</div>
-<div style="font-size:12px; color:#4B5565; font-weight:normal; margin-top:5px; line-height:1.5;">
+<div class="speaker-name">Montasir Qasymeh</div>
+<div class="speaker-affil">
                         Abu Dhabi University,<br/>United Arab Emirates
                     </div>
 </div>
