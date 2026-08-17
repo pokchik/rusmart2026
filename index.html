@@ -55,7 +55,7 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
     box-shadow:0 3px 12px rgba(8,32,92,.10);
     width:100%;
     max-width:300px;
-    min-height:350px;
+    min-height:400px;
     margin:0 auto;
     display:inline-block;
     vertical-align:top;
@@ -63,35 +63,28 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
 .speaker-card img {
     display:block;
     width:190px;
-    height:190px;
+    height:240px;
     max-width:none;
-    object-fit:cover;
-    object-position:center top;
+    object-fit:contain;
+    object-position:center;
     background:#FFFFFF;
     border:3px solid #08205C;
-    padding:3px;
+    padding:4px;
     margin:0 auto;
     box-sizing:border-box;
 }
-.speaker-card .speaker-photo {
-    display:block;
-    width:190px;
-    height:190px;
-    margin:0 auto;
-    overflow:hidden;
-    background:#FFFFFF;
-    border:3px solid #08205C;
-    box-sizing:border-box;
+.speaker-name {
+    font-size:15px;
+    font-weight:bold;
+    color:#08205C;
+    margin-top:14px;
 }
-.speaker-card .speaker-photo img {
-    display:block;
-    width:240px;
-    max-width:none;
-    height:auto;
-    margin:-61px 0 0 -25px;
-    border:0;
-    padding:0;
-    object-fit:none;
+.speaker-affil {
+    font-size:12px;
+    color:#4B5565;
+    font-weight:normal;
+    margin-top:6px;
+    line-height:1.5;
 }
 .speaker-name {
     font-size:15px;
@@ -515,7 +508,7 @@ a:focus { outline:3px solid #F3D36A; outline-offset:2px; }
 <!-- Prof. Andrey Koucheryavy: placed first as requested by the Steering Committee -->
 <td align="center" style="padding:8px 10px;" valign="top" width="50%">
 <div class="speaker-card">
-<span class="speaker-photo"><img src="Images/Prof. Andrey.jpeg" alt="Prof. Andrey Koucheryavy"></span>
+<img src="Images/Prof. Andrey.jpeg" alt="Prof. Andrey Koucheryavy">
 <div class="speaker-name">Andrey Koucheryavy</div>
 <div class="speaker-affil">
                         Professor<br/>
