@@ -291,9 +291,7 @@ body.modern-site #content-head-line::before {
   width: 9px;
   height: 9px;
   margin: 6px 0 0 -27px;
-  border: 2px solid rgba(255,255,255,0.92);
-  border-radius: 50%;
-  box-shadow: 12px 0 0 -2px rgba(255,255,255,0.72);
+  
 }
 
 /* Left navigation: cleaner cards without changing any link destinations. */
