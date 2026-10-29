@@ -1,0 +1,3 @@
+ruSMART 2026 Technical Program Committee update, 29 October 2026
+Added 16 members to committees.html, preserving existing committee members and styling.
+Jafar Abbas was parsed from the supplied text “Jafar AbbasNazarbayev university” as Jafar Abbas — Nazarbayev University.
